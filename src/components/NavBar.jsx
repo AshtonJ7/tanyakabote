@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font">
       {/* logo */}
       <a
-        href="/Marketing-Website/"
+        href="/tanyakabote/"
         className="lg:text-3xl text-2xl tracking-wide font-light text-[#7A6960]"
       >
         Tanya Kabote
@@ -23,32 +23,32 @@ const NavBar = () => {
       {/* menu */}
       <div className="lg:flex items-center justify-between lg:gap-14 hidden">
         <a
-          href="/Marketing-Website/"
+          href="/tanyakabote/"
           className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Home
         </a>
         <a
-          href="/Marketing-Website/#about"
+          href="/tanyakabote/#about"
           className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           About
         </a>
         <a
-          href="/Marketing-Website/#services"
+          href="/tanyakabote/#services"
           className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Services
         </a>
         <a
-          href="/Marketing-Website/#portfolio"
+          href="/tanyakabote/#portfolio"
           className="text-gray-800 hover:text-[#6F4E37]text-lg tracking-wide font-light"
         >
           Portfolio
         </a>
 
         <a
-          href="/Marketing-Website/#contact"
+          href="/tanyakabote/#contact"
           className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Contact
@@ -64,25 +64,25 @@ const NavBar = () => {
       {show && (
         <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-white transition-all duration-300">
           <a
-            href="/Marketing-Website/"
+            href="/tanyakabote/"
             className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Home
           </a>
           <a
-            href="/Marketing-Website/#about"
+            href="tanyakabote/#about"
             className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             About
           </a>
           <a
-            href="/Marketing-Website/#services"
+            href="/tanyakabote/#services"
             className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Services
           </a>
           <a
-            href="/Marketing-Website/#contact"
+            href="/tanyakabote/#contact"
             className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Contact
@@ -90,7 +90,7 @@ const NavBar = () => {
 
           {/* CTA */}
           <a
-            href="/Marketing-Website/#contact"
+            href="/tanyakabote/#contact"
             className="mt-2 ml-2 flex justify-center items-center"
           >
             <CtaButton name={"Get Started"} />

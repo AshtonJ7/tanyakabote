@@ -14,7 +14,7 @@ const Routings = () => {
   return (
     <div>
       <Routes>
-        <Route path="/Marketing-Website/" element={<Home />} />
+        <Route path="/tanyakabote/" element={<Home />} />
         <Route path="social-marketing" element={<SocialMedia />} />
         <Route path="/PPC" element={<PPC />} />
         <Route path="/seo-optimization" element={<Seo />} />
