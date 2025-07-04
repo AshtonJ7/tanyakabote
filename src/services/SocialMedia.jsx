@@ -6,14 +6,14 @@ import Contact from "../components/Contact";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
-const AppDevelopment = () => {
+const SocialMedia = () => {
   return (
     <div>
       <div className="secondary-font">
         <NavBar />
       </div>
       <Template
-        title={"App Development"}
+        title={"Social Media Marketing"}
         desc={
           "Lorem doloribus ex quisquam. Nesciunt laborum laboriosam consequuntur, eum id molestias in, Nesciunt laborum laboriosam consequuntur, eum id molestias in."
         }
@@ -23,4 +23,4 @@ const AppDevelopment = () => {
   );
 };
 
-export default AppDevelopment;
+export default SocialMedia;

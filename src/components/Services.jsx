@@ -15,7 +15,7 @@ const Services = () => {
   });
 
   // const clickHandler = () => {
-  //   navigate("app-development");
+  //   navigate("social-marketing");
   // };
   return (
     <div className="text-[#7A6960]">
@@ -23,32 +23,31 @@ const Services = () => {
         Services
       </h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+       <div className="h-1 w-16 rounded" style={{backgroundColor: '#8e1616'}}></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Choose from live online courses, classroom training, or self-paced
-        online programs.
+        Whether you're starting from scratch or looking to fine-tune your existing marketing, I offer tailored services designed to meet your business where it’s at and take it further.
       </p>
       <div
         className="flex flex-col lg:flex-row items-center gap-5"
         data-aos="fade-up"
       >
-        <div onClick={() => navigate("/app-development")}>
+        <div onClick={() => navigate("/social-marketing")}>
           <Card
             img={<HiOutlineChartPie />}
-            title={"Apps Development"}
+            title={"Social Media Marketing"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "Utilizing social media platforms to build brand awareness, engage with customers, and drive traffic to a website"
             }
           />
         </div>
 
-        <div onClick={() => navigate("/web-development")}>
+        <div onClick={() => navigate("/PPC")}>
           <Card
             img={<HiOutlineChartPie />}
-            title={"Web Development"}
+            title={"Pay-Per-Click (PPC) Advertising"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "Running targeted online ads, typically on search engines or social media platforms, where advertisers pay only when their ad is clicked."
             }
           />
         </div>
@@ -58,7 +57,7 @@ const Services = () => {
             img={<HiOutlineChartPie />}
             title={"Search Engine Optimization"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "Utilizing social media platforms to build brand awareness, engage with customers, and drive traffic to a website."
             }
           />
         </div>
@@ -68,7 +67,16 @@ const Services = () => {
             img={<HiOutlineChartPie />}
             title={"Campaign Creation"}
             desc={
-              "Lorem ipsum, dolor Adipisci ipsam placeat voluptatum fuga omnis tenetur facere!"
+              "Creating a bespoke strategic plan for promoting your business. With the goal to boost brand awareness, engagement and conversions with your target audience."
+            }
+          />
+        </div>
+         <div onClick={() => navigate("/influencer-marketing")}>
+          <Card
+            img={<HiOutlineChartPie />}
+            title={"Influencer Marketing"}
+            desc={
+              "Collaborating with individuals who have a large and engaged following on social media to promote a brand or product. "
             }
           />
         </div>

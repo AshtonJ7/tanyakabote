@@ -18,49 +18,42 @@ const NavBar = () => {
         href="/Marketing-Website/"
         className="lg:text-3xl text-2xl tracking-wide font-light text-[#7A6960]"
       >
-        BrandName
+        Tanya Kabote
       </a>
       {/* menu */}
       <div className="lg:flex items-center justify-between lg:gap-14 hidden">
         <a
           href="/Marketing-Website/"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Home
         </a>
         <a
           href="/Marketing-Website/#about"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           About
         </a>
         <a
           href="/Marketing-Website/#services"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Services
         </a>
         <a
           href="/Marketing-Website/#portfolio"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-gray-800 hover:text-[#6F4E37]text-lg tracking-wide font-light"
         >
           Portfolio
         </a>
 
         <a
           href="/Marketing-Website/#contact"
-          className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+          className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
         >
           Contact
         </a>
 
-        {/* CTA */}
-        {/* <button className="bg-orange-600 text-lg text-slate-50 rounded-3xl px-4 py-1">
-          Get Strated
-        </button> */}
-        <a href="/Marketing-Website/#contact" className="">
-          <CtaButton name={"Get Started"} />
-        </a>
       </div>
 
       {/* mobile menu */}
@@ -72,25 +65,25 @@ const NavBar = () => {
         <div className="absolute z-20 top-[70px] flex flex-col gap-4 text-center w-full left-0 p-5 lg:hidden shadow-xl bg-white transition-all duration-300">
           <a
             href="/Marketing-Website/"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Home
           </a>
           <a
             href="/Marketing-Website/#about"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             About
           </a>
           <a
             href="/Marketing-Website/#services"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Services
           </a>
           <a
             href="/Marketing-Website/#contact"
-            className="text-gray-800 hover:text-[#EE7540] text-lg tracking-wide font-light"
+            className="text-gray-800 hover:text-[#6F4E37] text-lg tracking-wide font-light"
           >
             Contact
           </a>

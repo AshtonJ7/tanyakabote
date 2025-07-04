@@ -1,15 +1,3 @@
-# Digital Marketing Website Template
-
-Welcome to the Digital Marketing Website Template repository! This project is a comprehensive digital marketing website template designed to showcase various services and strategies for effective online marketing.
-
-## Table of Contents
-
-- [Digital Marketing Website Template](#digital-marketing-website-template)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
-
 ## Features
 
 - **Responsive Design**: Optimized for all devices including mobile, tablet, and desktop.

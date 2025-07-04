@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import CtaButton from "./CtaButton";
-import VideoBtn from "./VideoBtn";
 import img from "../img/about-img.svg";
 import { BsPeople } from "react-icons/bs";
 
@@ -8,8 +7,7 @@ import { BsPeople } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// import video
-import video from "../img/video/funny.mp4";
+
 
 const About = () => {
   useEffect(() => {
@@ -39,10 +37,10 @@ const About = () => {
         data-aos="fade-down"
         className="text-3xl font-semibold text-center text-[#7A6960]"
       >
-        About Us
+        About Me
       </h1>
       <div className="flex justify-center items-center mt-2 mb-10">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+       <div className="h-1 w-16 rounded" style={{backgroundColor: '#8e1616'}}></div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center lg:gap-10 secondary-font">
@@ -55,11 +53,11 @@ const About = () => {
         <div className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0">
           <div data-aos="fade-left">
             <h1 className="text-[#7A6960] md:text-3xl font-semibold">
-              Upskilling Edtech
+              Passionate
             </h1>
             <p className="text-lg mt-5 text-gray-600 primary-font">
-              Edtech platform offering expert mentorship with our tech-powered
-              courses in various languages of India.
+             With a passion for helping small businesses grow, I am a freelance digital marketer specializing in strategies that drive real results.
+            From crafting compelling campaigns to optimizing for conversions, every solution is tailored to meet the unique needs of each client.
             </p>
           </div>
 
@@ -69,17 +67,17 @@ const About = () => {
             className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-5"
           >
             <div
-              className="bg-orange-600 w-fit p-2 md:p-5 rounded"
-              style={{ color: "white" }}
+              className="w-fit p-2 md:p-5 rounded" style={{backgroundColor: '#8e1616', color: "white"}}
             >
               <BsPeople size={"28px"} />
             </div>
             <div className="w-full">
               <h2 className="text-[#7A6960] text-xl font-medium">
-                The Vernacular Upskilling Edtech
+              Experienced
               </h2>
               <p className="text-base text-gray-600 primary-font lg:mt-1 mt-2">
-                Explore Our Courses | Bharat ka Career Launchpad
+                Over the years, I have helped startups, local brands, and entrepreneurs establish their online presence, boost visibility, and turn engagement into revenue. 
+                
               </p>
             </div>
           </div>
@@ -89,18 +87,16 @@ const About = () => {
             data-aos="zoom-in"
             className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-5"
           >
-            <div
-              className="bg-orange-600 w-fit p-2 md:p-5 rounded"
-              style={{ color: "white" }}
+            <div className="w-fit p-2 md:p-5 rounded" style={{backgroundColor: '#8e1616', color: "white"}}
             >
               <BsPeople size={"28px"} />
             </div>
             <div className="w-full">
               <h2 className="text-[#7A6960] text-xl font-medium">
-                Build Your Career, Your Way
+                Effective
               </h2>
               <p className="text-base text-gray-600 primary-font lg:mt-1 mt-2">
-                Our Learners Work at Global Companies & Startups
+               Whether it's SEO, social media, paid ads, or email marketing — the goal is always the same: smart, effective marketing without the agency fluff.
               </p>
             </div>
           </div>
@@ -110,9 +106,8 @@ const About = () => {
             data-aos="zoom-in"
             className="text-lg mt-5 text-gray-600 primary-font"
           >
-            Master industry-relevant skills with our vernacular online courses.
-            Choose your program, get certified, and open doors to lucrative
-            career opportunities.
+           Ready to grow your business? Let’s connect and start crafting your winning marketing strategy today.
+
           </p>
           <div className="flex flex-col justify-center sm:flex-row items-center mb-12 lg:mb-0 lg:flex-row gap-10 mt-10">
             <div>

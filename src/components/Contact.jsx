@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import { IoLocationOutline } from "react-icons/io5";
-import { IoCallOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import CtaButton from "./CtaButton";
 // aos
 import AOS from "aos";
@@ -32,53 +31,23 @@ const Contact = () => {
         Contact
       </h1>
       <div className="flex justify-center items-center mt-2">
-        <div className="bg-orange-600 h-1 w-16 rounded"></div>
+   <div className="h-1 w-16 rounded" style={{backgroundColor: '#8e1616'}}></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Reach out for a new project or just say hello
+     <strong> Let's talk about how we can grow your business.</strong> <br></br>
+Reach out today and get a personalized digital marketing plan that fits your goals.
       </p>
 
       <div className="lg:flex gap-6">
         {/* map */}
         <div
           data-aos="fade-up"
-          className="lg:w-[40%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-orange-600 mb-7 lg:mb-0"
+          className="lg:w-[40%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] mb-7 lg:mb-0" style={{borderTopColor: '#8e1616', borderBottomColor: '#8e1616'}}
         >
-          <div className="flex gap-3 mt-3 mb-12">
-            <div
-              className="rounded-full h-fit bg-orange-100 p-2"
-              style={{ color: "#EA580C", fontSize: "28px" }}
-            >
-              <IoLocationOutline />
-            </div>
-            <div>
-              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
-                Address
-              </h2>
-              <p className="text-sm text-slate-800">
-                A108 Adam Street, New York, NY 535022
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-3 mb-12">
-            <div
-              className="rounded-full h-fit bg-orange-100 p-2"
-              style={{ color: "#EA580C", fontSize: "28px" }}
-            >
-              <IoCallOutline />
-            </div>
-            <div>
-              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
-                Call Us
-              </h2>
-              <p className="text-sm text-slate-800">+1 5589 55488 55</p>
-            </div>
-          </div>
 
           <div className="flex gap-5 mb-12">
             <div
-              className="rounded-full h-fit bg-orange-100 p-2"
+              className="rounded-full h-fit p-2"
               style={{ color: "#EA580C", fontSize: "28px" }}
             >
               <TfiEmail />
@@ -91,14 +60,43 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="lg:w-full lg:h-72">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.76256980872!2d77.22260515427726!3d28.60905606083753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1717776828829!5m2!1sen!2sin"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          {/* Social Media Icons */}
+          <div className="flex gap-5 mb-12">
+            <div
+              className="rounded-full h-fit p-2"
+              style={{ color: "#EA580C", fontSize: "28px" }}
+            >
+              <FaLinkedin />
+            </div>
+            <div>
+              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
+                LinkedIn
+              </h2>
+              <p className="text-sm text-slate-800">
+                <a href="https://linkedin.com/company/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-800">
+                  Connect with us
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-5 mb-12">
+            <div
+              className="rounded-full h-fit p-2"
+              style={{ color: "#EA580C", fontSize: "28px" }}
+            >
+              <FaInstagram />
+            </div>
+            <div>
+              <h2 className="lg:text-xl text-[#7A6960] font-semibold">
+                Instagram
+              </h2>
+              <p className="text-sm text-slate-800">
+                <a href="https://instagram.com/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-800">
+                  Follow us @yourcompany
+                </a>
+              </p>
+            </div>
           </div>
         </div>
 
@@ -106,7 +104,7 @@ const Contact = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="1600"
-          className="lg:w-[60%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-orange-600"
+          className="lg:w-[60%] px-10 py-5 shadow-xl border-t-[3px] border-b-[3px] border-yellow-800"
         >
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="md:flex gap-6">
@@ -118,7 +116,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     placeholder="John Doe"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-yellow-800 outline-none"
                   />
                 </div>
               </div>
@@ -131,7 +129,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     placeholder="johndoe@gmail.com"
-                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                    className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-yellow-800 outline-none"
                   />
                 </div>
               </div>
@@ -144,7 +142,7 @@ const Contact = () => {
                 type="text"
                 id="subject"
                 placeholder="Your subject"
-                className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none"
+                className="w-full h-10 px-3 my-3 rounded border border-zinc-300 focus:border focus:border-yellow-800 outline-none"
               />
             </div>
 
@@ -154,7 +152,7 @@ const Contact = () => {
                 {...register("message", { required: true })}
                 id="message"
                 placeholder="Enter your message"
-                className="w-full h-60 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-orange-600 outline-none resize-none"
+                className="w-full h-60 p-3 my-3 rounded border border-zinc-300 focus:border focus:border-yellow-800 outline-none resize-none"
               ></textarea>
             </div>
 
